@@ -1,0 +1,19 @@
+{
+    "name": "wkl/composer-car",
+    "description": "This is a demo for build composer packagist",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "luwk",
+            "email": "luwk@qqty.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MikeLue\\": "src/MikeLue"
+        }
+    }
+
+}
