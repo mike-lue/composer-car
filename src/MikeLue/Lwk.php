@@ -6,7 +6,7 @@ namespace MikeLue;
  */
 class Lwk {
 
-	public function say() {
-		echo "My name is MikeLue,This is a demo for composer packagist";
+	public function say($name = "MikeLue Lwk", $msg = "您好!") {
+		echo $name . ' ' . $msg;
 	}
 }
