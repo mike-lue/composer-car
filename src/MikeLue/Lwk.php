@@ -1,12 +1,17 @@
 <?php
-namespace MikeLue;
+namespace MikeLue\MikeLue;
+
+use MikeLue\Common\Say;
 
 /**
  * 测试composer
  */
 class Lwk {
 
-	public function say($name = "MikeLue Lwk", $msg = "您好!") {
-		echo $name . ' ' . $msg;
+	public function __construct() {
+		$this->say = new Say;
+	}
+	public function act() {
+		$this->say->haha();
 	}
 }
